@@ -1,0 +1,13 @@
+L1: Giải thích các câu lệnh:
+1. git init: Khởi tạo
+2. git add <file_name>: Thêm 1 file vào vùng staging
+3. git add .: Thêm toàn bộ file vào vùng staging
+4. git commit -m "mesage": Thêm commit
+
+L2: 
+a. Tạo 3 file: file1, file2, file3 => Ở local
+b. Chạy lệnh: git init => Vùng Working Directory
+c. Chạy lệnh: git commit -m"init project" => Vùng Repository, sau khi add file1
+d. Chạy lệnh: git add file1 => Vùng Staging area (Phải add trước mới commit))
+e. Chạy lệnh: git commit -m"Add file1"  Vùng Repository
+f. Chạy lệnh: git commit -m"Add file"  Vùng Repository
