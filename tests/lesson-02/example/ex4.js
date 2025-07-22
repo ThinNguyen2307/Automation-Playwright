@@ -1,0 +1,2 @@
+let height = 150;
+console.log("Chiều cao của bạn là: " + height + " cm", "Cân nặng lý tưởng là: " + (height - 100) * 9 / 10 + " kg", "Cân nặng tối đa là: " + (height - 100) + " kg", "Cân nặng tối thiểu là: " + (height - 100) * 8 / 10 + " kg");
